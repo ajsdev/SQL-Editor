@@ -1,2 +1,2 @@
 # SQL-Editor
-Php SQL manager for websites
+Php SQL manager for websites. Not done.
