@@ -27,7 +27,7 @@ $data = $dbHandler.query("SELECT * FROM `SQL_Editor_Users` WHERE `user` = '".$_P
 $user = $data->next();
   if ($user) {
    $_SESSION["data"] = $user;
-    
+    echo '{"Message":"Logged in"}';
   } else {
    echo '{"error":"Wrong username or pass"}'; 
   }
