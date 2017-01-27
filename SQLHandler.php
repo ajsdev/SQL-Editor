@@ -109,9 +109,9 @@ class SQLConnector {
     * @param {Array} options - Options for connection
     */
     
-   function __construct($a,$b,$c,$d) {
+   function __construct($a,$b,$c,$d,$e) {
         
-        self::$db = mysqli_connect($a,$b,$c,$d);
+        self::$db = mysqli_connect($a,$b,$c,$d,$e);
     }
     
    /**
