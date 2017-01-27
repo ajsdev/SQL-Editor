@@ -22,7 +22,7 @@ include("config.php");
 @session_start();
 
 if (isset($_SESSION["data"]) { // logged in
- $userData = json_encode($_SESSION["data"]);
+ $userData = $_SESSION["data"];
     ?>
     
     
