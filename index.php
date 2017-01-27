@@ -14,9 +14,13 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
+include("config.php");
+include("SQLHandler.php");    
 
+$dbHandler = new SQLConnector($CONFIG["dbHost"],$CONFIG["dbUsername"],$CONFIG["dbPassword"],$CONFIG["dbName"],$CONFIG["dbPort"])
+    
 @session_start();
 
-include("config.php")
+
 
 ?>
